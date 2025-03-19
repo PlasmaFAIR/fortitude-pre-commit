@@ -1,0 +1,6 @@
+[project]
+name = "fortitude-pre-commit"
+version = "0.0.0"
+dependencies = [
+    "fortitude-lint==0.6.2",
+]
