@@ -2,5 +2,5 @@
 name = "fortitude-pre-commit"
 version = "0.0.0"
 dependencies = [
-    "fortitude-lint==0.7.2",
+    "fortitude-lint==0.7.3",
 ]
