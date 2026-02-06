@@ -15,7 +15,7 @@ following to your `.pre-commit-config.yaml`:
 repos:
 - repo: https://github.com/PlasmaFAIR/fortitude-pre-commit
   # Fortitude version.
-  rev: v0.7.5
+  rev: v0.8.0
   hooks:
     - id: fortitude
 ```
@@ -26,7 +26,7 @@ Extra arguments may be provided to the lint hook:
 repos:
 - repo: https://github.com/PlasmaFAIR/fortitude-pre-commit
   # Fortitude version.
-  rev: v0.7.5
+  rev: v0.8.0
   hooks:
     - id: fortitude
       args: ["--fix", "--unsafe-fixes", "--preview"]
