@@ -3,7 +3,7 @@
   description: "A fast Fortran linter"
   entry: fortitude check --force-exclude
   language: python
-  types_or: [fortran]
+  files: \.(f90|f95|f03|f08|f18|f23|F90|F95|F03|F08|F18|F23|pf)$
   args: []
   require_serial: true
   additional_dependencies: []
